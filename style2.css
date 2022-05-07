@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html,body {
+    height: 100%;
+    margin: 0;
+    line-height: 180%;
+    color: rgb(232, 129, 69);
+   
+    background-color: #323233;
+    text-align: center;
+}
+.img1{
+    background: url(Pune_Medical_College_Azam_Campus.jpg);
+    min-height: 95%;
+}
+
+.img2{
+    background:url(booking.jpeg);
+    min-height: 100%;
+}
+.img3{
+    background: url(freehall.jpg);
+    min-height: 45%;
+}
+.img1, .img2, .img3{
+    position: relative;
+    opacity: .85;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+section{
+    padding: 50px 80px;
+}
+.heading{
+    position: absolute;
+    top: 20%;
+    font-size: 550%;
+    text-shadow: 0 0 20px;
+    text-decoration-color: black;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
